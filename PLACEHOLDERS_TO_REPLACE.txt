@@ -1,0 +1,230 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                   PLACEHOLDERS TO REPLACE                         ║
+║          Royal Futsal Nepal Website Setup                         ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+CRITICAL: You MUST replace these placeholders before launching!
+
+═══════════════════════════════════════════════════════════════════
+
+SEARCH FOR: __________
+
+REPLACE WITH YOUR ACTUAL INFORMATION
+
+═══════════════════════════════════════════════════════════════════
+
+📱 WHATSAPP NUMBER (appears ~4 times)
+────────────────────────────────────────────────────────────
+
+FORMAT: Country code + number (NO SPACES, NO SPECIAL CHARACTERS)
+
+✅ Correct:   9779801234567
+❌ Wrong:     +977-980-1234567
+❌ Wrong:     980 123 4567
+❌ Wrong:     +977 9801234567
+
+LOCATIONS TO UPDATE:
+▸ index.html line ~313 (WhatsApp button in Contact section)
+▸ index.html line ~322 (WhatsApp social link)
+▸ script.js line ~178 (WhatsApp API URL for bookings)
+▸ script.js line ~228 (Contact form WhatsApp)
+
+YOUR WHATSAPP: _________________________________
+
+
+═══════════════════════════════════════════════════════════════════
+
+📞 PHONE NUMBER (appears ~2 times)
+────────────────────────────────────────────────────────────
+
+FORMAT: Any format you prefer for display
+
+Examples:  
+  • 9801234567
+  • +977-9801234567
+  • 01-4567890
+
+LOCATIONS TO UPDATE:
+▸ index.html line ~321 (Call button in Contact section)
+▸ index.html line ~407 (Footer contact)
+
+YOUR PHONE: _________________________________
+
+
+═══════════════════════════════════════════════════════════════════
+
+👥 FACEBOOK PAGE (appears ~1 time)
+────────────────────────────────────────────────────────────
+
+FORMAT: facebook.com/YourPageName
+
+Examples:
+  • facebook.com/RoyalFutsalNepal
+  • facebook.com/royalfutsal
+  • facebook.com/pages/123456789
+
+LOCATIONS TO UPDATE:
+▸ index.html line ~330 (Facebook button in Contact section)
+
+YOUR FACEBOOK: _________________________________
+
+
+═══════════════════════════════════════════════════════════════════
+
+🔍 HOW TO FIND & REPLACE
+────────────────────────────────────────────────────────────
+
+METHOD 1: Using Text Editor (Recommended)
+─────────────────────────────────────────
+1. Open index.html in Notepad, VS Code, or any text editor
+2. Press Ctrl+H (Windows) or Cmd+F (Mac)
+3. Type __________ in "Find" box
+4. Type your information in "Replace" box
+5. Click "Replace All"
+6. Save the file
+7. Repeat for script.js
+
+METHOD 2: Manual Search
+─────────────────────────────────────────
+1. Open index.html
+2. Press Ctrl+F (Windows) or Cmd+F (Mac)
+3. Search for __________
+4. Replace each occurrence manually
+5. Repeat for script.js
+
+
+═══════════════════════════════════════════════════════════════════
+
+✅ VERIFICATION CHECKLIST
+────────────────────────────────────────────────────────────
+
+After replacing, verify:
+
+□ WhatsApp links open correctly when clicked
+□ Phone links work on mobile devices
+□ Facebook link goes to your page
+□ No __________ placeholders remain
+□ All numbers are in correct format
+□ Test booking sends WhatsApp message
+□ Contact form opens WhatsApp
+
+
+═══════════════════════════════════════════════════════════════════
+
+📝 QUICK REFERENCE GUIDE
+────────────────────────────────────────────────────────────
+
+FILES TO MODIFY:
+  1. index.html (Main website file)
+  2. script.js (JavaScript functionality)
+
+FILES TO UPLOAD:
+  1. index.html  ⭐ REQUIRED
+  2. styles.css  ⭐ REQUIRED
+  3. script.js   ⭐ REQUIRED
+
+TOTAL REPLACEMENTS NEEDED: ~10 occurrences
+
+
+═══════════════════════════════════════════════════════════════════
+
+⚠️ IMPORTANT WARNINGS
+────────────────────────────────────────────────────────────
+
+1. WhatsApp Number Format:
+   • MUST include country code (977 for Nepal)
+   • NO spaces or special characters
+   • Format: 9779801234567
+
+2. Test Before Launch:
+   • Test WhatsApp opens with your booking details
+   • Verify all links work
+   • Check on mobile device
+
+3. Keep Backups:
+   • Save original files before editing
+   • Keep a backup copy after making changes
+
+
+═══════════════════════════════════════════════════════════════════
+
+🎯 AFTER REPLACING PLACEHOLDERS
+────────────────────────────────────────────────────────────
+
+NEXT STEPS:
+1. Save all modified files
+2. Upload to your web hosting
+3. Test the live website
+4. Make a test booking
+5. Verify WhatsApp receives booking
+6. Share website link with customers
+7. Announce launch on social media
+
+
+═══════════════════════════════════════════════════════════════════
+
+📊 REPLACEMENT SUMMARY
+────────────────────────────────────────────────────────────
+
+Total Files to Edit: 2 (index.html, script.js)
+Total Placeholders: ~10 occurrences
+Time Required: 5-10 minutes
+Difficulty: Easy (Just find & replace)
+
+
+═══════════════════════════════════════════════════════════════════
+
+💡 PRO TIP
+────────────────────────────────────────────────────────────
+
+Do a "Find All" first to see how many times __________ appears.
+This helps you verify you've replaced everything!
+
+
+═══════════════════════════════════════════════════════════════════
+
+✅ COMPLETION CHECKLIST
+────────────────────────────────────────────────────────────
+
+□ Replaced WhatsApp number (4 times)
+□ Replaced phone number (2 times)
+□ Replaced Facebook page (1 time)
+□ Verified WhatsApp format is correct
+□ Tested WhatsApp link opens
+□ Tested phone link works
+□ Tested Facebook link works
+□ Saved all files
+□ Created backup copies
+□ Ready to upload!
+
+
+═══════════════════════════════════════════════════════════════════
+
+📞 YOUR CONTACT INFORMATION
+────────────────────────────────────────────────────────────
+
+Fill this out for reference:
+
+WhatsApp:  _________________________________
+Phone:     _________________________________
+Facebook:  _________________________________
+Location:  _________________________________
+Email:     _________________________________
+
+
+═══════════════════════════════════════════════════════════════════
+
+🚀 READY TO LAUNCH!
+
+Once all placeholders are replaced:
+  ✅ Upload files to hosting
+  ✅ Test everything
+  ✅ Start accepting bookings!
+
+═══════════════════════════════════════════════════════════════════
+
+Questions? Check README.md for detailed instructions.
+
+Good luck with Royal Futsal Nepal! ⚽🏆
+
+═══════════════════════════════════════════════════════════════════

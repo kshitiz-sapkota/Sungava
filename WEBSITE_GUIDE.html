@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Futsal Nepal - Website Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #00a86b 0%, #008555 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .status {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            margin-top: 1rem;
+            font-weight: 600;
+        }
+        
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #00a86b;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #00a86b;
+            padding-bottom: 0.5rem;
+        }
+        
+        .section h3 {
+            color: #333;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .file-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .file-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .file-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .file-card.required {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .file-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .file-card p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .file-card .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.3);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+        
+        .steps {
+            counter-reset: step-counter;
+        }
+        
+        .step {
+            counter-increment: step-counter;
+            background: #f8f9fa;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #00a86b;
+            position: relative;
+            padding-left: 4rem;
+        }
+        
+        .step::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #00a86b;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .feature-item {
+            background: #e8f5e9;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 3px solid #4CAF50;
+        }
+        
+        .feature-item strong {
+            color: #2e7d32;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        
+        .warning strong {
+            color: #856404;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #c7254e;
+        }
+        
+        .cta-box {
+            background: linear-gradient(135deg, #00a86b 0%, #008555 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .cta-box h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .checklist {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        
+        .checklist label {
+            display: block;
+            padding: 0.5rem;
+            margin: 0.3rem 0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .checklist label:hover {
+            background: #f0f0f0;
+        }
+        
+        .checklist input[type="checkbox"] {
+            margin-right: 0.5rem;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏆 Royal Futsal Nepal</h1>
+            <p>Professional Website - Setup Guide</p>
+            <div class="status">✅ Ready to Deploy</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Files Section -->
+        <div class="section">
+            <h2>📁 Your Website Files</h2>
+            <p>You have <strong>8 files</strong> created in <code>C:\Royal\</code> folder:</p>
+            
+            <h3>Core Website Files (REQUIRED FOR WEBSITE)</h3>
+            <div class="file-grid">
+                <div class="file-card required">
+                    <h4>index.html</h4>
+                    <p>Main website structure</p>
+                    <div class="badge">17.62 KB</div>
+                    <div class="badge">⭐ REQUIRED</div>
+                </div>
+                <div class="file-card required">
+                    <h4>styles.css</h4>
+                    <p>Design & styling</p>
+                    <div class="badge">19.53 KB</div>
+                    <div class="badge">⭐ REQUIRED</div>
+                </div>
+                <div class="file-card required">
+                    <h4>script.js</h4>
+                    <p>Booking system logic</p>
+                    <div class="badge">11.90 KB</div>
+                    <div class="badge">⭐ REQUIRED</div>
+                </div>
+            </div>
+
+            <h3>Documentation Files (HELPFUL GUIDES)</h3>
+            <div class="file-grid">
+                <div class="file-card">
+                    <h4>README.md</h4>
+                    <p>Full documentation</p>
+                    <div class="badge">7.29 KB</div>
+                </div>
+                <div class="file-card">
+                    <h4>QUICK_SETUP.md</h4>
+                    <p>5-minute setup guide</p>
+                    <div class="badge">2.93 KB</div>
+                </div>
+                <div class="file-card">
+                    <h4>LAYOUT_PLAN.md</h4>
+                    <p>Visual structure guide</p>
+                    <div class="badge">18.08 KB</div>
+                </div>
+                <div class="file-card">
+                    <h4>DEPLOYMENT_CHECKLIST.md</h4>
+                    <p>Pre-launch checklist</p>
+                    <div class="badge">8.34 KB</div>
+                </div>
+                <div class="file-card">
+                    <h4>PROJECT_SUMMARY.md</h4>
+                    <p>Complete overview</p>
+                    <div class="badge">9.96 KB</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Setup Section -->
+        <div class="section">
+            <h2>⚡ Quick Setup (3 Steps)</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <h3>Update Contact Information</h3>
+                    <p>Open <code>index.html</code> in any text editor and find/replace <code>__________</code> with:</p>
+                    <ul>
+                        <li><strong>WhatsApp:</strong> Your number with country code (e.g., 9779801234567)</li>
+                        <li><strong>Phone:</strong> Your phone number</li>
+                        <li><strong>Facebook:</strong> Your Facebook page name</li>
+                    </ul>
+                    <p><em>Tip: Use Ctrl+H (Windows) or Cmd+F (Mac) to find and replace all at once!</em></p>
+                </div>
+
+                <div class="step">
+                    <h3>Upload to Web Hosting</h3>
+                    <p>Upload these 3 files to your hosting <code>public_html</code> folder:</p>
+                    <ul>
+                        <li>index.html</li>
+                        <li>styles.css</li>
+                        <li>script.js</li>
+                    </ul>
+                    <p><em>Use cPanel File Manager or FTP client like FileZilla</em></p>
+                </div>
+
+                <div class="step">
+                    <h3>Test & Launch</h3>
+                    <p>Open your website and test:</p>
+                    <ul>
+                        <li>✓ Select a date from calendar</li>
+                        <li>✓ Choose a time slot</li>
+                        <li>✓ Fill booking form</li>
+                        <li>✓ Verify WhatsApp opens</li>
+                        <li>✓ Test on mobile device</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="section">
+            <h2>🌟 Website Features</h2>
+            
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>📅 Smart Calendar</strong>
+                    Interactive date picker with availability tracking
+                </div>
+                <div class="feature-item">
+                    <strong>🕐 Time Slots</strong>
+                    Real-time booking status for all time slots
+                </div>
+                <div class="feature-item">
+                    <strong>💳 Payment Options</strong>
+                    eSewa, Khalti, Bank, or Pay at Venue
+                </div>
+                <div class="feature-item">
+                    <strong>📱 Mobile Ready</strong>
+                    Fully responsive on all devices
+                </div>
+                <div class="feature-item">
+                    <strong>💬 WhatsApp</strong>
+                    Automatic booking confirmations via WhatsApp
+                </div>
+                <div class="feature-item">
+                    <strong>🎨 Modern Design</strong>
+                    Professional appearance with smooth animations
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing Section -->
+        <div class="section">
+            <h2>💰 Current Pricing Setup</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>Morning (6 AM - 12 PM)</strong>
+                    NPR 800 per hour
+                </div>
+                <div class="feature-item">
+                    <strong>Afternoon (12 PM - 5 PM)</strong>
+                    NPR 1000 per hour
+                </div>
+                <div class="feature-item">
+                    <strong>Evening (5 PM - 10 PM)</strong>
+                    NPR 1200 per hour
+                </div>
+            </div>
+            <p style="margin-top: 1rem;"><em>To change prices, edit the <code>pricing</code> object in <code>script.js</code></em></p>
+        </div>
+
+        <!-- Warning Section -->
+        <div class="section">
+            <h2>⚠️ Important Notes</h2>
+            
+            <div class="warning">
+                <strong>📞 WhatsApp Number Format</strong>
+                <p>Use this format: <code>9779801234567</code></p>
+                <p>❌ Don't use: +977-980-1234567 or spaces</p>
+            </div>
+
+            <div class="warning">
+                <strong>💾 Booking Storage</strong>
+                <p>Current version stores bookings in browser memory only. For permanent storage across all users, you'll need to add a backend database in the future.</p>
+            </div>
+
+            <div class="warning">
+                <strong>💳 Payment Integration</strong>
+                <p>Currently opens WhatsApp for payment confirmation. For automatic payments, integrate eSewa/Khalti APIs (instructions in README.md)</p>
+            </div>
+        </div>
+
+        <!-- Pre-Launch Checklist -->
+        <div class="section">
+            <h2>✅ Pre-Launch Checklist</h2>
+            <div class="checklist">
+                <label><input type="checkbox"> Replace all <code>__________</code> placeholders</label>
+                <label><input type="checkbox"> Verify WhatsApp number format is correct</label>
+                <label><input type="checkbox"> Update phone number in all locations</label>
+                <label><input type="checkbox"> Add Facebook page URL</label>
+                <label><input type="checkbox"> Confirm pricing is correct</label>
+                <label><input type="checkbox"> Verify operating hours</label>
+                <label><input type="checkbox"> Upload files to hosting</label>
+                <label><input type="checkbox"> Test booking system</label>
+                <label><input type="checkbox"> Test WhatsApp integration</label>
+                <label><input type="checkbox"> Test on mobile device</label>
+                <label><input type="checkbox"> Test all navigation links</label>
+                <label><input type="checkbox"> Clear browser cache and reload</label>
+                <label><input type="checkbox"> Share website link with team</label>
+                <label><input type="checkbox"> Announce launch on social media</label>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-box">
+            <h3>🚀 Ready to Launch?</h3>
+            <p style="font-size: 1.2rem; margin-bottom: 1rem;">Your professional futsal booking website is complete and ready to go live!</p>
+            <p><strong>Total Setup Time:</strong> 20-30 minutes</p>
+            <p><strong>Cost Saved:</strong> NPR 50,000-100,000</p>
+            <p><strong>Status:</strong> Production Ready ✅</p>
+        </div>
+
+        <!-- Support Section -->
+        <div class="section">
+            <h2>📚 Need Help?</h2>
+            <p>Check these documentation files in order:</p>
+            <ol style="line-height: 2;">
+                <li><strong>QUICK_SETUP.md</strong> - Fast 5-minute setup guide</li>
+                <li><strong>README.md</strong> - Complete documentation</li>
+                <li><strong>LAYOUT_PLAN.md</strong> - Visual website structure</li>
+                <li><strong>DEPLOYMENT_CHECKLIST.md</strong> - Detailed launch checklist</li>
+                <li><strong>PROJECT_SUMMARY.md</strong> - Complete project overview</li>
+            </ol>
+        </div>
+
+        <div class="section" style="text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2 style="color: white; border: none;">🎉 Congratulations!</h2>
+            <p style="font-size: 1.2rem; margin: 1rem 0;">You now have a professional, fully-functional futsal booking website!</p>
+            <p style="font-size: 1.5rem; margin-top: 2rem;">⚽ Good Luck with Royal Futsal Nepal! 🏆</p>
+        </div>
+    </div>
+</body>
+</html>

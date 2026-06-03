@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sungava Futsal Nepal - Premium Indoor Football Experience</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-ball">
+                <svg viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M50 5 L50 95 M5 50 L95 50 M15 20 L85 80 M85 20 L15 80" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                </svg>
+            </div>
+            <div class="preloader-text">SUNGAVA FUTSAL</div>
+            <div class="preloader-bar"><div class="preloader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+        </svg>
+    </button>
+
+    <!-- Quick Booking FAB -->
+    <div class="quick-book-fab" id="quickBookFab">
+        <button class="fab-main" id="fabMain">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+                <path d="M12 14l2 2 4-4"/>
+            </svg>
+            <span>Quick Book</span>
+        </button>
+        <div class="fab-options" id="fabOptions">
+            <a href="tel:9861893463" class="fab-option">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+                <span>Call</span>
+            </a>
+            <a href="https://wa.me/9779861893463" target="_blank" class="fab-option whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                <span>WhatsApp</span>
+            </a>
+            <a href="#booking" class="fab-option book">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+                <span>Book</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Live Status Bar -->
+    <div class="live-status-bar" id="liveStatusBar">
+        <div class="status-pulse"></div>
+        <span class="status-text">
+            <span class="status-dot"></span>
+            <span id="liveStatusText">Checking availability...</span>
+        </span>
+        <button class="status-close" id="closeStatus">&times;</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 50 50" fill="none">
+                        <polygon points="25,5 45,25 25,45 5,25" stroke="currentColor" stroke-width="2" fill="none"/>
+                        <circle cx="25" cy="25" r="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-royal">SUNGAVA</span>
+                    <span class="logo-futsal">FUTSAL</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#booking" class="nav-link">Book</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#membership" class="nav-link">Membership</a>
+                <a href="#tournaments" class="nav-link">Events</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-right">
+                <a href="#booking" class="nav-cta">
+                    <span>Book Now</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-pattern"></div>
+            <div class="hero-orbs">
+                <div class="orb orb-1"></div>
+                <div class="orb orb-2"></div>
+                <div class="orb orb-3"></div>
+            </div>
+        </div>
+
+        <!-- Weather Widget -->
+        <div class="weather-widget" id="weatherWidget">
+            <div class="weather-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                </svg>
+            </div>
+            <div class="weather-info">
+                <span class="weather-temp" id="weatherTemp">22°C</span>
+                <span class="weather-desc">Perfect for futsal!</span>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge animate-reveal">
+                <span class="badge-dot"></span>
+                <span>Nepal's Premier Futsal Destination</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="title-line animate-reveal delay-1">WHERE</span>
+                <span class="title-line title-highlight animate-reveal delay-2">CHAMPIONS</span>
+                <span class="title-line animate-reveal delay-3">PLAY</span>
+            </h1>
+
+            <p class="hero-description animate-reveal delay-4">
+                Experience world-class indoor football at Sungava Futsal Nepal. 
+                Premium artificial turf, professional lighting, and an atmosphere 
+                designed for winners.
+            </p>
+
+            <div class="hero-actions animate-reveal delay-5">
+                <a href="#booking" class="btn-primary">
+                    <span>Reserve Your Slot</span>
+                    <div class="btn-shine"></div>
+                </a>
+                <a href="#about" class="btn-outline">
+                    <span>Explore Facility</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="hero-stats animate-reveal delay-6">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5000">0</span>
+                    <span class="stat-label">Games Hosted</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="98">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Happy Players</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="150">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Teams</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Availability Dashboard -->
+    <section class="availability-dashboard" id="availability">
+        <div class="container">
+            <div class="dashboard-header">
+                <div class="live-indicator">
+                    <span class="live-dot"></span>
+                    <span>Live Availability</span>
+                </div>
+                <span class="dashboard-date" id="dashboardDate">Today</span>
+            </div>
+            <div class="slots-overview">
+                <div class="slot-status available">
+                    <span class="slot-count" id="availableCount">12</span>
+                    <span class="slot-label">Available</span>
+                </div>
+                <div class="slot-status booked">
+                    <span class="slot-count" id="bookedCount">4</span>
+                    <span class="slot-label">Booked</span>
+                </div>
+                <div class="slot-status next">
+                    <span class="slot-time" id="nextSlot">10:00 AM</span>
+                    <span class="slot-label">Next Available</span>
+                </div>
+            </div>
+            <a href="#booking" class="dashboard-cta">View All Slots</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">— About Us</span>
+                <h2 class="section-title">Built for Excellence</h2>
+                <p class="section-subtitle">
+                    Sungava Futsal Nepal sets the standard for indoor football facilities. 
+                    Our commitment to quality ensures every match is memorable.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">⚽</div>
+                    <h3>FIFA-Standard Court</h3>
+                    <p>Professional-grade artificial turf meeting FIFA specifications for optimal play.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">💡</div>
+                    <h3>HD Lighting</h3>
+                    <p>State-of-the-art LED lighting for perfect visibility during evening matches.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🚿</div>
+                    <h3>Modern Amenities</h3>
+                    <p>Clean changing rooms, hot showers, secure lockers, and comfortable seating.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🕐</div>
+                    <h3>Flexible Hours</h3>
+                    <p>Open 6 AM to 10 PM daily. Early birds and night owls welcome.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🏆</div>
+                    <h3>Tournament Ready</h3>
+                    <p>Host your corporate events, leagues, and championships with our setup.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🅿️</div>
+                    <h3>Free Parking</h3>
+                    <p>Ample parking space for cars and bikes. Secure and well-lit area.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">— Book Your Game</span>
+                <h2 class="section-title">Reserve Your Slot</h2>
+            </div>
+
+            <div class="booking-container">
+                <div class="booking-calendar">
+                    <div class="calendar-header">
+                        <button class="calendar-nav" id="prevMonth">‹</button>
+                        <h3 class="calendar-month" id="currentMonth"></h3>
+                        <button class="calendar-nav" id="nextMonth">›</button>
+                    </div>
+                    <div class="calendar-grid" id="calendarGrid"></div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="selected-date-display">
+                        <h3>Selected Date</h3>
+                        <p class="selected-date" id="selectedDate">Choose a date from the calendar</p>
+                    </div>
+
+                    <div class="time-slots" id="timeSlots">
+                        <p class="placeholder-text">Select a date to view available slots</p>
+                    </div>
+
+                    <div class="booking-summary" id="bookingSummary" style="display: none;">
+                        <h3>Booking Summary</h3>
+                        <div class="summary-item">
+                            <span>Date:</span>
+                            <span id="summaryDate">-</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Time:</span>
+                            <span id="summaryTime">-</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Duration:</span>
+                            <span>1 Hour</span>
+                        </div>
+                        <div class="summary-item total">
+                            <span>Total:</span>
+                            <span id="summaryPrice">NPR 0</span>
+                        </div>
+
+                        <div class="customer-info">
+                            <input type="text" id="customerName" placeholder="Your Name *" required>
+                            <input type="tel" id="customerPhone" placeholder="Phone Number *" required>
+                            <input type="email" id="customerEmail" placeholder="Email (optional)">
+                        </div>
+
+                        <button class="btn-primary" id="proceedPayment">Proceed to Payment</button>
+                        <button class="btn-secondary" id="cancelBooking">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">— Pricing</span>
+                <h2 class="section-title">Transparent Rates</h2>
+                <p class="section-subtitle">Simple, honest pricing with no hidden fees.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header-card">
+                        <span class="pricing-icon">🌅</span>
+                        <h3>Morning</h3>
+                        <span class="pricing-time">6:00 AM - 12:00 PM</span>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">NPR</span>
+                        <span class="price">800</span>
+                        <span class="period">/hour</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Full court access</li>
+                        <li>✓ Changing rooms</li>
+                        <li>✓ Free parking</li>
+                        <li>✓ Drinking water</li>
+                    </ul>
+                    <a href="#booking" class="pricing-btn">Book Now</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header-card">
+                        <span class="pricing-icon">☀️</span>
+                        <h3>Afternoon</h3>
+                        <span class="pricing-time">12:00 PM - 5:00 PM</span>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">NPR</span>
+                        <span class="price">1000</span>
+                        <span class="period">/hour</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Full court access</li>
+                        <li>✓ Changing rooms</li>
+                        <li>✓ Free parking</li>
+                        <li>✓ Drinking water</li>
+                        <li>✓ Referee available</li>
+                    </ul>
+                    <a href="#booking" class="pricing-btn">Book Now</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header-card">
+                        <span class="pricing-icon">🌙</span>
+                        <h3>Evening</h3>
+                        <span class="pricing-time">5:00 PM - 10:00 PM</span>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">NPR</span>
+                        <span class="price">1200</span>
+                        <span class="period">/hour</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Full court access</li>
+                        <li>✓ Premium HD lighting</li>
+                        <li>✓ Changing rooms</li>
+                        <li>✓ Free parking</li>
+                        <li>✓ Referee available</li>
+                    </ul>
+                    <a href="#booking" class="pricing-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section (NEW) -->
+    <section class="membership" id="membership">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">— Membership</span>
+                <h2 class="section-title">Join the Club</h2>
+                <p class="section-subtitle">Save more with our exclusive membership plans.</p>
+            </div>
+
+            <div class="membership-grid">
+                <div class="membership-card bronze">
+                    <div class="membership-tier">
+                        <span class="tier-icon">🥉</span>
+                        <h3>Bronze</h3>
+                    </div>
+                    <div class="membership-price">
+                        <span class="price-amount">NPR 5,000</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="membership-benefits">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            8 hours of play time
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            10% discount on extra hours
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Priority booking
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Free drinking water
+                        </li>
+                    </ul>
+                    <button class="membership-btn">Get Started</button>
+                </div>
+
+                <div class="membership-card silver popular">
+                    <div class="popular-tag">Best Value</div>
+                    <div class="membership-tier">
+                        <span class="tier-icon">🥈</span>
+                        <h3>Silver</h3>
+                    </div>
+                    <div class="membership-price">
+                        <span class="price-amount">NPR 9,000</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="membership-benefits">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            15 hours of play time
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            15% discount on extra hours
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Priority booking
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Free referee for 2 games
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Bring 1 guest free/month
+                        </li>
+                    </ul>
+                    <button class="membership-btn">Get Started</button>
+                </div>
+
+                <div class="membership-card gold">
+                    <div class="membership-tier">
+                        <span class="tier-icon">🥇</span>
+                        <h3>Gold</h3>
+                    </div>
+                    <div class="membership-price">
+                        <span class="price-amount">NPR 15,000</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="membership-benefits">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Unlimited play time
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            20% off merchandise
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Free referee always
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            VIP locker room access
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Bring 3 guests free/month
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+                            Free tournament entry
+                        </li>
+                    </ul>
+                    <button class="membership-btn">Get Started</button>
+                </div>
+            </div>
+
+            <!-- Loyalty Program -->
+            <div class="loyalty-program">
+                <div class="loyalty-content">
+                    <div class="loyalty-info">
+                        <span class="loyalty-badge">🎁 Loyalty Rewards</span>
+                        <h3>Earn Points Every Game</h3>
+                        <p>Get 10 points for every hour you play. Redeem points for free sessions, merchandise, and exclusive perks!</p>
+                    </div>
+                    <div class="loyalty-tiers">
+                        <div class="loyalty-tier">
+                            <span class="tier-points">100 pts</span>
+                            <span class="tier-reward">Free Drink</span>
+                        </div>
+                        <div class="loyalty-tier">
+                            <span class="tier-points">500 pts</span>
+                            <span class="tier-reward">1 Free Hour</span>
+                        </div>
+                        <div class="loyalty-tier">
+                            <span class="tier-points">1000 pts</span>
+                            <span class="tier-reward">Royal Jersey</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tournaments Section (NEW) -->
+    <section class="tournaments" id="tournaments">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">— Events</span>
+                <h2 class="section-title">Upcoming Tournaments</h2>
+                <p class="section-subtitle">Join the competition and showcase your skills.</p>
+            </div>
+
+            <div class="tournaments-grid">
+                <div class="tournament-card upcoming">
+                    <div class="tournament-date">
+                        <span class="date-day">15</span>
+                        <span class="date-month">Jan</span>
+                    </div>
+                    <div class="tournament-info">
+                        <span class="tournament-tag">Open Tournament</span>
+                        <h3>Royal Cup 2025</h3>
+                        <p>5v5 knockout tournament. 16 teams, winner takes all!</p>
+                        <div class="tournament-meta">
+                            <span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg> 16 Teams</span>
+                            <span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> 9:00 AM</span>
+                        </div>
+                        <div class="tournament-prize">
+                            <span class="prize-label">Prize Pool</span>
+                            <span class="prize-amount">NPR 50,000</span>
+                        </div>
+                    </div>
+                    <div class="tournament-spots">
+                        <span class="spots-count">4 spots left</span>
+                        <div class="spots-bar"><div class="spots-filled" style="width: 75%"></div></div>
+                    </div>
+                    <button class="tournament-btn">Register Now</button>
+                </div>
+
+                <div class="tournament-card">
+                    <div class="tournament-date">
+                        <span class="date-day">28</span>
+                        <span class="date-month">Jan</span>
+                    </div>
+                    <div class="tournament-info">
+                        <span class="tournament-tag corporate">Corporate League</span>
+                        <h3>Corporate Challenge</h3>
+                        <p>Inter-company futsal competition. Build team spirit!</p>
+                        <div class="tournament-meta">
+                            <span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg> 12 Teams</span>
+                            <span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> 2:00 PM</span>
+                        </div>
+                        <div class="tournament-prize">
+                            <span class="prize-label">Prize Pool</span>
+                            <span class="prize-amount">NPR 30,000</span>
+                        </div>
+                    </div>
+                    <div class="tournament-spots">
+                        <span class="spots-count">8 spots left</span>
+                        <div class="spots-bar"><div class="spots-filled" style="width: 33%"></div></div>
+                    </div>
+                    <button class="tournament-btn">Register Now</button>
+                </div>
+
+                <div class="tournament-card">
+                    <div class="tournament-date">
+                        <span class="date-day">10</span>
+                        <span class="date-month">Feb</span>
+                    </div>
+                    <div class="tournament-info">
+                        <span class="tournament-tag youth">Youth Championship</span>
+                        <h3>Junior League</h3>
+                        <p>Under-18 tournament. Nurturing future champions!</p>
+                        <div class="tournament-meta">
+                            <span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg> 8 Teams</span>
+                            <span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> 10:00 AM</span>
+                        </div>
+                        <div class="tournament-prize">
+                            <span class="prize-label">Prize</span>
+                            <span class="prize-amount">Trophies + Medals</span>
+                        </div>
+                    </div>
+                    <div class="tournament-spots">
+                        <span class="spots-count">6 spots left</span>
+                        <div class="spots-bar"><div class="spots-filled" style="width: 25%"></div></div>
+                    </div>
+                    <button class="tournament-btn">Register Now</button>
+                </div>
+            </div>
+
+            <!-- League Table Preview -->
+            <div class="league-preview">
+                <h3>Current Season Standings</h3>
+                <div class="league-table">
+                    <div class="table-header">
+                        <span class="col-pos">#</span>
+                        <span class="col-team">Team</span>
+                        <span class="col-played">P</span>
+                        <span class="col-won">W</span>
+                        <span class="col-draw">D</span>
+                        <span class="col-lost">L</span>
+                        <span class="col-points">Pts</span>
+                    </div>
+                    <div class="table-row gold">
+                        <span class="col-pos">1</span>
+                        <span class="col-team">Thunder FC</span>
+                        <span class="col-played">8</span>
+                        <span class="col-won">7</span>
+                        <span class="col-draw">1</span>
+                        <span class="col-lost">0</span>
+                        <span class="col-points">22</span>
+                    </div>
+                    <div class="table-row silver">
+                        <span class="col-pos">2</span>
+                        <span class="col-team">Eagles United</span>
+                        <span class="col-played">8</span>
+                        <span class="col-won">6</span>
+                        <span class="col-draw">1</span>
+                        <span class="col-lost">1</span>
+                        <span class="col-points">19</span>
+                    </div>
+                    <div class="table-row bronze">
+                        <span class="col-pos">3</span>
+                        <span class="col-team">City Warriors</span>
+                        <span class="col-played">8</span>
+                        <span class="col-won">5</span>
+                        <span class="col-draw">2</span>
+                        <span class="col-lost">1</span>
+                        <span class="col-points">17</span>
+                    </div>
+                    <div class="table-row">
+                        <span class="col-pos">4</span>
+                        <span class="col-team">Royal Strikers</span>
+                        <span class="col-played">8</span>
+                        <span class="col-won">4</span>
+                        <span class="col-draw">2</span>
+                        <span class="col-lost">2</span>
+                        <span class="col-points">14</span>
+                    </div>
+                    <div class="table-row">
+                        <span class="col-pos">5</span>
+                        <span class="col-team">Phoenix SC</span>
+                        <span class="col-played">8</span>
+                        <span class="col-won">4</span>
+                        <span class="col-draw">1</span>
+                        <span class="col-lost">3</span>
+                        <span class="col-points">13</span>
+                    </div>
+                </div>
+                <a href="#" class="view-full-table">View Full Table →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section (NEW) -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">— Reviews</span>
+                <h2 class="section-title">What Players Say</h2>
+            </div>
+
+            <div class="reviews-stats">
+                <div class="overall-rating">
+                    <span class="rating-number">4.9</span>
+                    <div class="rating-stars">★★★★★</div>
+                    <span class="rating-count">Based on 250+ reviews</span>
+                </div>
+                <div class="rating-breakdown">
+                    <div class="rating-bar">
+                        <span>5 ★</span>
+                        <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                        <span>85%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>4 ★</span>
+                        <div class="bar"><div class="fill" style="width: 10%"></div></div>
+                        <span>10%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>3 ★</span>
+                        <div class="bar"><div class="fill" style="width: 3%"></div></div>
+                        <span>3%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>2 ★</span>
+                        <div class="bar"><div class="fill" style="width: 1%"></div></div>
+                        <span>1%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>1 ★</span>
+                        <div class="bar"><div class="fill" style="width: 1%"></div></div>
+                        <span>1%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-carousel" id="reviewsCarousel">
+                <div class="reviews-track">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">RS</div>
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Rajesh Shrestha</span>
+                                <span class="review-date">2 weeks ago</span>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                        <p class="review-text">"Best futsal ground in Kathmandu! The turf quality is amazing and the lighting makes evening games so enjoyable. Highly recommend!"</p>
+                        <div class="review-tags">
+                            <span>Great Turf</span>
+                            <span>Clean Facilities</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">PT</div>
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Priya Tamang</span>
+                                <span class="review-date">1 month ago</span>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                        <p class="review-text">"Organized our company tournament here. The staff was super helpful and everything went smoothly. Our team loved it!"</p>
+                        <div class="review-tags">
+                            <span>Great for Events</span>
+                            <span>Helpful Staff</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">SM</div>
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Sujan Maharjan</span>
+                                <span class="review-date">3 weeks ago</span>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                        <p class="review-text">"Been playing here for 6 months now. The booking system is easy and the facility is always well-maintained. Worth every rupee!"</p>
+                        <div class="review-tags">
+                            <span>Easy Booking</span>
+                            <span>Well Maintained</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">AK</div>
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Anil KC</span>
+                                <span class="review-date">1 week ago</span>
+                            </div>
+                            <div class="review-rating">★★★★☆</div>
+                        </div>
+                        <p class="review-text">"Great court and facilities. Only wish they had a small cafeteria. Otherwise, perfect place for regular futsal sessions!"</p>
+                        <div class="review-tags">
+                            <span>Good Value</span>
+                            <span>Quality Court</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">BG</div>
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Bikash Gurung</span>
+                                <span class="review-date">2 months ago</span>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                        <p class="review-text">"The Gold membership is totally worth it. Unlimited play, priority booking - can't ask for more. This is now our team's home ground!"</p>
+                        <div class="review-tags">
+                            <span>Great Membership</span>
+                            <span>Value for Money</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-nav">
+                <button class="review-nav-btn prev" id="reviewPrev">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <button class="review-nav-btn next" id="reviewNext">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+            </div>
+
+            <div class="review-cta">
+                <p>Played at Sungava Futsal?</p>
+                <button class="btn-write-review" id="writeReviewBtn">Write a Review</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">— Gallery</span>
+                <h2 class="section-title">Our Facility</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-large">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 100 100" fill="none">
+                            <rect x="10" y="20" width="80" height="60" rx="2" stroke="currentColor" stroke-width="1"/>
+                            <circle cx="50" cy="50" r="15" stroke="currentColor" stroke-width="1"/>
+                            <line x1="50" y1="20" x2="50" y2="80" stroke="currentColor" stroke-width="1"/>
+                        </svg>
+                        <span>Premium Futsal Court</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 100 100" fill="none">
+                            <path d="M50 20L60 45H40L50 20Z" stroke="currentColor" stroke-width="1"/>
+                            <rect x="35" y="45" width="30" height="35" stroke="currentColor" stroke-width="1"/>
+                        </svg>
+                        <span>HD Lighting System</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 100 100" fill="none">
+                            <rect x="20" y="30" width="25" height="40" rx="2" stroke="currentColor" stroke-width="1"/>
+                            <rect x="55" y="30" width="25" height="40" rx="2" stroke="currentColor" stroke-width="1"/>
+                        </svg>
+                        <span>Changing Rooms</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 100 100" fill="none">
+                            <path d="M20 60H80" stroke="currentColor" stroke-width="1"/>
+                            <path d="M25 60V45" stroke="currentColor" stroke-width="1"/>
+                            <path d="M75 60V45" stroke="currentColor" stroke-width="1"/>
+                        </svg>
+                        <span>Spectator Area</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-wide">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 100 100" fill="none">
+                            <circle cx="50" cy="50" r="20" stroke="currentColor" stroke-width="1"/>
+                            <path d="M50 30V50L65 60" stroke="currentColor" stroke-width="1"/>
+                        </svg>
+                        <span>Game Action</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">— Get in Touch</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p>Have questions? We're here to help. Reach out through any channel below.</p>
+
+                    <div class="social-links">
+                        <a href="tel:9861893463" class="social-btn phone">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <span>Call: 9861893463</span>
+                        </a>
+                        <a href="https://wa.me/9779861893463" target="_blank" class="social-btn whatsapp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://www.facebook.com/share/1NjpNRe2X9/" target="_blank" class="social-btn facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h4>Operating Hours</h4>
+                            <p>Monday - Sunday: 6:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
+                        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-royal">SUNGAVA</span>
+                        <span class="logo-futsal">FUTSAL</span>
+                    </div>
+                    <p>Nepal's premier futsal destination. Where passion meets excellence.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#booking">Book Now</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#membership">Membership</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>📞 9861893463</p>
+                    <p>📍 new palnning, Nepal</p>
+                    <p>🕐 6 AM - 10 PM Daily</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sungava Futsal Nepal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Payment Modal -->
+    <div class="modal" id="paymentModal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <h2>Complete Payment</h2>
+            
+            <div class="payment-summary">
+                <h3>Booking Details</h3>
+                <div class="summary-row">
+                    <span>Date:</span>
+                    <span id="paymentDate">-</span>
+                </div>
+                <div class="summary-row">
+                    <span>Time:</span>
+                    <span id="paymentTime">-</span>
+                </div>
+                <div class="summary-row">
+                    <span>Name:</span>
+                    <span id="paymentName">-</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span id="paymentAmount">NPR 0</span>
+                </div>
+            </div>
+
+            <div class="payment-methods">
+                <h3>Select Payment Method</h3>
+                <div class="payment-options">
+                    <div class="payment-option" data-method="esewa">
+                        <span>eSewa</span>
+                    </div>
+                    <div class="payment-option" data-method="khalti">
+                        <span>Khalti</span>
+                    </div>
+                    <div class="payment-option" data-method="bank">
+                        <span>Bank Transfer</span>
+                    </div>
+                    <div class="payment-option" data-method="cash">
+                        <span>Pay at Venue</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment-info">
+                <p>After payment, you'll receive confirmation via WhatsApp.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content success">
+            <div class="success-icon">✓</div>
+            <h2>Booking Confirmed!</h2>
+            <p>Your slot has been reserved. We'll send confirmation via WhatsApp.</p>
+            <button class="btn-primary" id="closeSuccess">Done</button>
+        </div>
+    </div>
+
+    <!-- Review Modal -->
+    <div class="modal" id="reviewModal">
+        <div class="modal-content review-modal">
+            <span class="modal-close" id="closeReviewModal">&times;</span>
+            <h2>Write a Review</h2>
+            <form id="reviewForm">
+                <div class="rating-input">
+                    <span>Your Rating:</span>
+                    <div class="star-rating">
+                        <input type="radio" name="rating" value="5" id="star5"><label for="star5">★</label>
+                        <input type="radio" name="rating" value="4" id="star4"><label for="star4">★</label>
+                        <input type="radio" name="rating" value="3" id="star3"><label for="star3">★</label>
+                        <input type="radio" name="rating" value="2" id="star2"><label for="star2">★</label>
+                        <input type="radio" name="rating" value="1" id="star1"><label for="star1">★</label>
+                    </div>
+                </div>
+                <input type="text" name="reviewer_name" placeholder="Your Name" required>
+                <textarea name="review_text" rows="4" placeholder="Share your experience..." required></textarea>
+                <button type="submit" class="btn-primary">Submit Review</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

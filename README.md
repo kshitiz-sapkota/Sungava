@@ -1,7 +1,7 @@
-# Royal Futsal Nepal - Website Documentation
+# Sungava Futsal Nepal - Website Documentation
 
 ## 🎯 Overview
-This is a complete, modern, and fully functional website for Royal Futsal Nepal. The website features an intuitive booking system, real-time availability tracking, payment integration, and social media connections.
+This is a complete, modern, and fully functional website for Sungava Futsal Nepal. The website features an intuitive booking system, real-time availability tracking, payment integration, and social media connections.
 
 ## 📁 Files Included
 - `index.html` - Main website structure
@@ -233,7 +233,7 @@ For any questions or customization needs:
 
 ## 📄 License
 
-This website is created for Royal Futsal Nepal. All rights reserved.
+This website is created for Sungava Futsal Nepal. All rights reserved.
 
 ---
 

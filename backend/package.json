@@ -1,0 +1,24 @@
+{
+  "name": "royal-futsal-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Royal Futsal Nepal booking system with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seedDatabase.js"
+  },
+  "keywords": ["futsal", "booking", "api", "mongodb"],
+  "author": "Royal Futsal Nepal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "body-parser": "^1.20.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
